@@ -146,3 +146,21 @@ margin-left: 20%;
 	font-size: 15px;
 	font-weight: bold;
 }
+
+.main-direction-projects{
+	display: inline-flex;
+	flex-wrap: wrap;
+
+}
+.main-direction-project-card{
+	margin: 20px;
+	
+	width: 300px;
+}
+.main-direction-header{
+	text-align: center;
+}
+
+.main-direction-topbar{
+	height: 500px;
+}
