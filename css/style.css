@@ -32,7 +32,20 @@ footer{
 	color: #D9D9D9;
 }
 main{
+	background: #fff url(/img/bg.jpg) 0 0 repeat-x;
+	 background-size:110%;
+	 height: 700px;
+	 padding-top: 10%;
 
+
+}
+.main-text{
+	font-size: 250%;
+	margin: 0 auto;
+	padding-bottom: 5%;
+	text-transform: uppercase;
+	color:  #D9D9D9;
+	 text-shadow: 1px 1px 2px black;
 }
 .menu{
 	margin-left: 33%;
@@ -46,6 +59,15 @@ main{
 	font-weight: 500;
 	color: #D9D9D9;
 	text-decoration: none;
-	
-	
+
+}
+
+.main-button{
+	padding: 3%;
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px black;
+	border-radius: 3px;
+
 }
