@@ -24,6 +24,7 @@ header{
 	background-color: #0D0D0D;
 	padding-bottom: 50px;
 }
+
 footer{
 	height: 50px;
 	background-color: #0D0D0D;
@@ -135,6 +136,9 @@ margin-left: 20%;
 
 
 }
+.main-direction{
+	height: 3000px;
+}
 .main-form-input{
 	
 	margin-top: 10px;
@@ -159,8 +163,93 @@ margin-left: 20%;
 }
 .main-direction-header{
 	text-align: center;
+	padding: 50px;
+	margin: 50px;
 }
 
 .main-direction-topbar{
+	margin: 0 auto;
 	height: 500px;
+
 }
+.main-direction-strategy{
+	text-align: center;
+	margin: 50px;
+}
+.main-dir-p{
+	margin: 20px;
+	width: 30%;
+}
+.sidebar{
+	padding: 10px;
+	width: 80px;
+	height: 100px;
+	position: fixed;
+	background-color: grey;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.sidebar-link{
+	color: white;
+	text-decoration: none;
+
+}
+
+
+
+.main-dir-pov{
+	margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rotated-logo{
+	float: right;
+	margin-top: -300px;
+z-index: -999;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+}
+
