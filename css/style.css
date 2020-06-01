@@ -205,18 +205,24 @@ margin-left: 20%;
 }
 
 
+.u2035{
+	width: 20%;
+}
+.news{
+	display: inline-flex;
+	width: 100%;
 
+}
+.ncard{
+	margin: 10px;
+	width: 200px;
+	border: 3px solid black;
 
-
-
-
-
-
-
-
-
-
-
+}
+.ncard img{
+	margin: 10px;
+	width: 80%;
+}
 
 
 
