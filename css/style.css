@@ -224,7 +224,12 @@ margin-left: 20%;
 	width: 80%;
 }
 
-
+.arrow{
+	position: fixed;
+	top: 750px;
+	right: 20px;
+	
+}
 
 
 
